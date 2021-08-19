@@ -314,7 +314,7 @@ if __name__ == '__main__':
     APIKEY = "{fill it!}"
     LAT = 30.3
     LON = 76.3
-    rice = 1
+    rice = 1 # put 1 if rice is the crop otherwise 0
     ELEVATION = 257
     FLOW = 1   #flow rate of tubewell liter/min
     AREA = 20   #meter squared
