@@ -1,3 +1,4 @@
+################################################Important!   values are filled according to punjab average##########################################################
 import sys
 import requests
 import json
