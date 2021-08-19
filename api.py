@@ -6,7 +6,7 @@ import datetime
 import math
 from OWMClient import OWMClient
 
-APIKEY = "a12c15f540ae58e30f04987b1ad0049f"
+APIKEY = "{OWM api key}"
 LAT = 30.3
 LON = 76.3
 ELEVATION = 257
