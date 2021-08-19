@@ -1,4 +1,3 @@
-################################################Important!   values are filled according to punjab average##########################################################
 import sys
 import requests
 import json
@@ -7,10 +6,6 @@ import datetime
 import math
 from OWMClient import OWMClient
 
-APIKEY = "{OWM api key}"
-LAT = 30.3
-LON = 76.3
-ELEVATION = 257
 
 #METRIC TO IMPERIAL (US) FACTORS
 
@@ -315,12 +310,12 @@ class Smart_Irrigation():
 
 
 if __name__ == '__main__':
-    APIKEY = "OWM api key"
+    APIKEY = "{fill it!}"
     LAT = 30.3
     LON = 76.3
     rice = 1
     ELEVATION = 257
-    FLOW = 20   #flow rate of tubewell liter/min
+    FLOW = 1   #flow rate of tubewell liter/min
     AREA = 20   #meter squared
     MODE = "metric"
     MONTHLY_ET = [1.7,2.7,4.3,6.7,8.3,6.6,4.6,4,3.7,3.3,2.7,1.9]
